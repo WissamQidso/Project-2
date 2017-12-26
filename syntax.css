@@ -16,7 +16,7 @@ html body {
     padding: 0;
     width: 77%;
     background-color: rgb(180, 180, 180);
-    height: 1285px;
+    height: 100%;
 }
 
 img { 
@@ -184,7 +184,7 @@ section span a:hover {
 }
 
 #contact p { 
-    margin: 2px;
+    margin: 2px 2px 10px 2px;
     padding: 2px 17px;
     font: 17px 'maiandra gd';
     font-weight: 500;
