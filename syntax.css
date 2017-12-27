@@ -112,7 +112,7 @@ section a {
     color: rgba(0, 0, 0, 1);
 }
 
-section span a:hover { 
+section a:hover { 
     background-color: white;
     border: 3px solid rgb(0, 0, 0);
 }
@@ -123,6 +123,7 @@ section span a:hover {
     border-bottom: 2px solid #000000;
     background-color: rgb(200, 200, 200);
     height: 100%;
+    width: 100%;
 }
 
 #new:hover {
@@ -154,7 +155,7 @@ section span a:hover {
     
 #new span a img { 
     display: inline-block;
-    margin: 15px 9px 10px 18px;
+    margin: 10px 25px;
     padding: 2px;
     border: 3px solid rgba(0, 0, 0, 1);
     border-radius: 5px;
@@ -196,3 +197,4 @@ section span a:hover {
 #contact strong:hover {
     color: rgba(0, 0, 233, 0.7);
 }
+
