@@ -155,7 +155,7 @@ section a:hover {
     
 #new span a img { 
     display: inline-block;
-    margin: 10px 25px;
+    margin: 10px 5px 10px 20px;
     padding: 2px;
     border: 3px solid rgba(0, 0, 0, 1);
     border-radius: 5px;
