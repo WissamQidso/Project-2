@@ -12,25 +12,37 @@ html body {
 }
 
 @font-face {
-    font-family: 'Myriad-Pro-Regular';
-    src: url(../Fonts-Package/Myriad-Pro-Regular.ttf)
+    font-family: 'myriad';
+    src: url('fonts-package/myriad.woff2') format('woff2'),
+         url('fonts-package/myriad.woff') format('woff1'),
+         url('fonts-package/myriad.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Brush-Script-Std-Medium';
-    src: url(../Fonts-Package/Brush-Script-Std-Medium.ttf)
-}
-
+    font-family: 'brush';
+    src: url('fonts-package/brush.woff2') format('woff2'),
+         url('fonts-package/brush.woff') format('woff'),
+         url('fonts-package/brush.ttf') format('truetype');
+    
 @font-face {
-    font-family: 'Maiandra-GD-Regular';
-    src: url(../Fonts-Package/Maiandra-GD-Regular.ttf)
-}
-
+    font-family: 'calibri';
+    src: url('fonts-package/calibri.woff2') format('woff2'),
+         url('fonts-package/calibri.woff') format('woff'),
+         url('fonts-package/calibri.ttf') format('truetype');
+    
 @font-face {
-    font-family: 'Forte-Regular';
-    src: url(../Fonts-Package/Forte-Regular.ttf)
-}
-
+    font-family: 'forte';
+    src: url('fonts-package/forte.woff2') format('woff2'),
+         url('fonts-package/forte.woff') format('woff'),
+         url('fonts-package/forte.ttf') format('truetype'); 
+    
+@font-face {
+    font-family: 'maiandra';
+    src: url('fonts-package/maiandra.woff2') format('woff2'),
+         url('fonts-package/maiandra.woff') format('woff'),
+         url('fonts-package/maiandra.ttf') format('truetype'); 
+    
+    
 #all {
     margin: 0 auto;
     padding: 0;
@@ -58,7 +70,7 @@ nav {
     border: 2px solid #000000;
     border-radius: 5px;
     font: 15px bold;
-    font-family:'Maiandra-GD-Regular';
+    font-family:'maiandra';
     text-align: left;
     text-decoration: none;
     text-transform: capitalize;
@@ -78,7 +90,7 @@ nav h1 {
     margin: -15px;
     padding: 0;
     font: 60px bolder;
-    font-family:'Forte-Regular';
+    font-family:'forte';
     float: right;  
     width: 50%;
     height: 100%;
@@ -103,7 +115,7 @@ section h2 {
     text-decoration: underline;
     text-transform: capitalize;
     text-decoration-color: rgb(123, 123, 123);
-    font: 40px 'Maiandra-GD-Regular';
+    font: 40px 'maiandra';
     font-weight: 900;
     
 }
@@ -115,7 +127,7 @@ section h2:hover {
 section p { 
     margin: 2px;
     padding: 2px 17px;
-    font: 20px 'Maiandra-GD-Regular';
+    font: 20px 'maiandra';
     font-weight: 500;
 }
 
@@ -123,7 +135,7 @@ section a {
     display: inline-block;
     margin: 5px 9px 15px 18px;
     padding: 5px;
-    font: 15px 'Maiandra-GD-Regular';
+    font: 15px 'maiandra';
     font-weight: 500;
     text-transform: uppercase;
     text-decoration: none;
@@ -157,7 +169,7 @@ section a:hover {
     text-decoration: underline;
     text-transform: capitalize;
     text-decoration-color: rgb(123, 123, 123);
-    font: 40px 'Maiandra-GD-Regular';
+    font: 40px 'maiandra';
     font-weight: 900;
     
 }
@@ -169,7 +181,7 @@ section a:hover {
 #new p { 
     margin: 2px;
     padding: 2px 17px;
-    font: 20px 'Maiandra-GD-Regular';
+    font: 20px 'maiandra';
     font-weight: 500;
 }
     
@@ -199,7 +211,7 @@ section a:hover {
     text-decoration: underline;
     text-transform: capitalize;
     text-decoration-color: rgb(123, 123, 123);
-    font: 40px 'Maiandra-GD-Regular';
+    font: 40px 'maiandra';
     font-weight: 900; 
 }   
     
@@ -210,7 +222,7 @@ section a:hover {
 #contact p { 
     margin: 2px 2px 10px 2px;
     padding: 2px 17px ;
-    font: 17px 'Maiandra-GD-Regular';
+    font: 17px 'maiandra';
     font-weight: 500;
 }  
 
